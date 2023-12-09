@@ -1,0 +1,50 @@
+.list_organizer{
+    width: 360px;
+    margin-left: 2.5rem;
+}
+.list_organizer:last-child{
+    margin-right: 2.5rem;
+}
+.list_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+}
+.list_header_left, .list_header_right{
+    display: flex;
+    align-items: center;
+}
+.Bullet_point{
+    margin-right: .5rem;
+    display: flex;
+    align-items: center;
+}
+.list-heading{
+    margin-right: .65rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.list_sum_things{
+    margin-right: .5rem;
+    cursor: pointer;
+    color: var(--textgrey);
+}
+.list_option_things{
+    margin-right: .5rem;
+    cursor: pointer;
+    color: var(--textgrey);
+}
+.list_card_things{
+    width: 100%;
+}
+
+@media (max-width: 500px) and (min-width: 300px){
+    .list_organizer{
+        width: 320px;
+        margin-left: 1.5rem;
+    }
+    .list_organizer:last-child{
+        margin-right: 1.5rem;
+    }
+}
